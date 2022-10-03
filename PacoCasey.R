@@ -1,3 +1,5 @@
+# Procrustes Application to Cophylogenetic Analysis (PACo)
+
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -12,7 +14,7 @@ library(paco)
 library(future)
 library(future.batchtools)
 library(future.apply)
-work_dir="/Users/nohayoussef/Desktop/GradStudents/Casey-Adrienne/FecesPaper"
+work_dir="/Users/caseymeili/Desktop/R"
 threads = 6
 my_seed = 8394
 
@@ -33,11 +35,11 @@ Host_Sp <-ape::read.tree(file="~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/
 Taxa <-ape::read.tree(file="~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/GeneraOG_mafft.tree")
 
 library(readxl)
-otu_mat <-read_excel("~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/Physeq.xlsx", sheet="OTU")
+otu_mat <-read_excel("~/Desktop/R/Physeq.xlsx", sheet="OTU")
 
-tax_mat<- read_excel("~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/Physeq.xlsx", sheet="taxon")
+tax_mat<- read_excel("~/Desktop/R/Physeq.xlsx", sheet="taxon")
 
-Meta <-read_excel("~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/Physeq.xlsx", sheet="Sample")
+Meta <-read_excel("~/Desktop/R/Physeq.xlsx", sheet="Sample")
 
 otu_mat <- otu_mat %>%
   tibble::column_to_rownames("#OTU ID")
