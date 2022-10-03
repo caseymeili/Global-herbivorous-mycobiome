@@ -1,3 +1,6 @@
+#  Ordination, anosim, adonis, and MRM (with and without subsampling)
+
+
 library(readxl)
 library(phyloseq)
 library(ape)
