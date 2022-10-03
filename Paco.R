@@ -31,8 +31,8 @@ rescale_dist_mtx = function(m){
   m = m %>% as.dist
   return(m)
 }
-Host_Sp <-ape::read.tree(file="~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/Host.nwk")
-Taxa <-ape::read.tree(file="~/Desktop/GradStudents/Casey-Adrienne/FecesPaper/GeneraOG_mafft.tree")
+Host_Sp <-ape::read.tree(file="~/Desktop/R/Host.nwk")
+Taxa <-ape::read.tree(file="~/Desktop/R/GeneraOG_mafft.tree")
 
 library(readxl)
 otu_mat <-read_excel("~/Desktop/R/Physeq.xlsx", sheet="OTU")
