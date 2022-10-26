@@ -6,4 +6,6 @@ Meili, C., Jones, A., Arreola, A., Habel, J., Pratt, C., Hanafy, R., Yassin, A.,
 
 With the exception of inital data processing, all code was written and executed using RStudio and R version 4.1.3 
 
+Some of the computing for this project was performed at the High Performance Computing Center at Oklahoma State University supported in part through the National Science Foundation grant OAC-1531128.
+
 Questions can be directed to casey.meili@okstate.edu
