@@ -1,10 +1,8 @@
 # global-herbivorous-mycobiome
 
-Analysis for the paper "Patterns and determinants of the global herbivorous mycobiome", published in XXX (2023). Full citation below
+Analysis for the paper: Meili, C.H. et al. (2023). Patterns and determinants of the global herbivorous mycobiome. Nature Communications. 14(1), 3798. doi: 10.1038/s41467-023-39508-z
 
-Meili, C., Jones, A., Arreola, A., Habel, J., Pratt, C., Hanafy, R., Yassin, A., TagElDein, M., Shrestha, M., Rajbhandari, P., Wang, Y., Stajich, J., Goetsch, A., Hayes, J., Young, D., Nagler, M., Vinzelj, J., Moon, C., Janssen, P., Fliegerova, K., Grilli, D., Vodička, R., Moniello, G., Mattiello, S., Kashef, M., Nagy, Y., Dagar, S., Foote, A., Youssef, N., & Elshahed, M. (2022). Patterns and determinants of the global herbivorous mycobiome. (Under review)
-
-With the exception of inital data processing, all code was written and executed using RStudio and R version 4.1.3 
+With the exception of inital data processing, all code was written and executed using RStudio and R version 4.1.3. Phylogenomic/molecular clock analysis available at: https://github.com/stajichlab/PHYling
 
 Some of the computing for this project was performed at the High Performance Computing Center at Oklahoma State University supported in part through the National Science Foundation grant OAC-1531128.
 
