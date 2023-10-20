@@ -1,4 +1,4 @@
-# global-herbivorous-mycobiome
+# Patterns and determinants of the global herbivorous mycobiome
 
 Analysis for the paper: Meili, C.H. et al. (2023). Patterns and determinants of the global herbivorous mycobiome. Nature Communications. 14(1), 3798. doi: 10.1038/s41467-023-39508-z
 
